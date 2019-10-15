@@ -1,6 +1,6 @@
 module.exports = function solveSudoku(matrix) {
-    let n = matrix[0].length;
-
+    // let n = matrix[0].length;
+	let n = 9;
     for (let i = 0; i < n; i++) {
         let row = matrix[i];
         let colm = [];
